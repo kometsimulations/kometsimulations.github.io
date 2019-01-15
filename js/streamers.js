@@ -7,9 +7,9 @@ function getStreamerJson () {
             var image = this.image;
             var desc = this.description;
             var name = this.name;
-            
+
             var obj = document.getElementById("streamerInfo");
-            obj.innerHTML = obj.innerHTML + "<div class=\"streamerName\">" + name + "</div><span><div class=\"streamerInfo streamerPicture\" style='background-image: url(http://www.imgur.com/" + image + ".jpg);)'></div></span>" + 
+            obj.innerHTML = obj.innerHTML + "<div class=\"streamerName\">" + name + "</div><span><div class=\"streamerInfo streamerPicture\" style='background-image: url(https://www.i.imgur.com/" + image + ".jpg);)'></div></span>" +
                     "<div class=\"streamerInfo streamerDescription\">" + desc + "</div>";            
         });
     });
