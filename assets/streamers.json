@@ -2,18 +2,19 @@
     "levelpulse":
     {
         "image" : "uGctf3s",
-        "description" : "I'm Alex and i'm the founder of Komet Simulations along with Razor. I live in England and have been in the DCS Modding scene for a little over 3 years. With my first major project being in the A-4E dev team.",
+        "description" : "I'm Alex and the founder of Komet Simulations along with Razor. I live in England and have been in the DCS Modding scene for a little over 3 years. With my first major project being in the A-4E dev team.
+        My role is the Team Coordinator",
         "name" : "Level"
     },
 
     "Razor":
     {
        "image" : "",
-        "description" : "",
+        "description" : "Role: Lead 3D Department/OTHERROLEHERE",
         "name" : "Razor"
     },
 
-    "DangerTharp":
+    "Amery":
     {
        "image" : "",
         "description" : "",
