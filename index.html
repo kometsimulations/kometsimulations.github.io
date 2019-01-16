@@ -59,7 +59,7 @@
 
             <h1><a href="http://reddit.reddithon.com/">Komet Simulations </a>- ME-163B</h1>
             <p>&hellip;Bringing back iconic masterpieces to DCS World.</p>
-            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#schedule"><span class="glyphicon glyphicon-time"></span> Updates</button>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#updates"><span class="glyphicon glyphicon-time"></span> Updates</button>
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#donate"><i class="fa fa-paypal"></i> Donate</button>
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#media-assets"><i class="fa fa-share-alt"></i> Contact Us</button>
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#streamers"><i class="fa fa-group"></i> Team</button>
@@ -90,7 +90,7 @@
 
     <!---------------------------------------------------------------------- MODALS ---------------------------------------------------------------------->
     <!-- Schedule Modal -->
-    <div class="modal fade" id="schedule" tabindex="-1" role="dialog" aria-labelledby="scheduleLabel" aria-hidden="true">
+    <div class="modal fade" id="updates" tabindex="-1" role="dialog" aria-labelledby="scheduleLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
@@ -240,7 +240,7 @@
     return vars;
 }
 if (getUrlVars()['donate'] == "true"){$('#donate').modal('show');}
-if (getUrlVars()['schedule'] == "show"){$('#schedule').modal('show');}
+if (getUrlVars()['updates'] == "show"){$('#updates').modal('show');}
 if (getUrlVars()['share'] == "true"){$('#media-assets').modal('show');}
 if (getUrlVars()['streamers'] == "true"){$('#streamers').modal('show');}
 </script>
