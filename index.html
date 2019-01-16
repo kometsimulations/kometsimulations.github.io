@@ -62,7 +62,7 @@
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#updates"><span class="glyphicon glyphicon-time"></span> Updates</button>
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#donate"><i class="fa fa-paypal"></i> Donate</button>
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#media-assets"><i class="fa fa-share-alt"></i> Contact Us</button>
-            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#streamers"><i class="fa fa-group"></i> Team</button>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#team"><i class="fa fa-group"></i> Team</button>
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#vods"><i class="fa fa-youtube-square"></i> Videos</button>
         </div>
     </div>
@@ -90,12 +90,12 @@
 
     <!---------------------------------------------------------------------- MODALS ---------------------------------------------------------------------->
     <!-- Schedule Modal -->
-    <div class="modal fade" id="updates" tabindex="-1" role="dialog" aria-labelledby="scheduleLabel" aria-hidden="true">
+    <div class="modal fade" id="updates" tabindex="-1" role="dialog" aria-labelledby="updatesLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title" id="scheduleLabel">Updates</h4>
+            <h4 class="modal-title" id="updatesLabel">Updates</h4>
           </div>
           <div class="modal-body">
           <p class="text-center">If you would like to see the development thread on the forums please click <a href="https://forums.eagle.ru/showthread.php?p=3433519#post3433519">here.</a></p>
@@ -142,12 +142,12 @@
       </div>
     </div>
     <!-- STREAMERS MODAL -->
-    <div class="modal fade" id="streamers" tabindex="-1" role="dialog" aria-labelledby="scheduleLabel" aria-hidden="true">
+    <div class="modal fade" id="team" tabindex="-1" role="dialog" aria-labelledby="teamLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title" id="streamersModal">Streamers</h4>
+            <h4 class="modal-title" id="teamModal">Team</h4>
           </div>
           <div class="modal-body">
               <div class="text-center">
@@ -242,7 +242,7 @@
 if (getUrlVars()['donate'] == "true"){$('#donate').modal('show');}
 if (getUrlVars()['updates'] == "show"){$('#updates').modal('show');}
 if (getUrlVars()['share'] == "true"){$('#media-assets').modal('show');}
-if (getUrlVars()['streamers'] == "true"){$('#streamers').modal('show');}
+if (getUrlVars()['team'] == "true"){$('#team').modal('show');}
 </script>
 
 </body>
