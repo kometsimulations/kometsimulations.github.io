@@ -19,7 +19,7 @@ function loadVideoModal(vidID, vidTitle)
     var title = document.getElementById("videoLabel");
     title.innerHTML = vidTitle;
     var video = document.getElementById("video");
-    video.innerHTML = "<iframe width='560' height='315' src='https://www.youtube.com/embed/" + vidID + "' frameborder='0' allowfullscreen></iframe>";
+    video.innerHTML = "<iframe width='560' height='315' src='https ://www.youtube.com/embed/" + vidID + "' frameborder='0' allowfullscreen></iframe>";
     $('#embedVideo').on('hidden.bs.modal', function ()
     {
        video.innerHTML = "";
