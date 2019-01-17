@@ -1,7 +1,7 @@
 var json;
 var test;
 
-function getStreamerJson () {
+function getTeamJson () {
     json = $.getJSON("assets/streamers.json", function (data) {
         $.each(data, function() {
             var image = this.image;
@@ -9,13 +9,13 @@ function getStreamerJson () {
             var name = this.name;
 
             var obj = document.getElementById("teamInfo");
-            obj.innerHTML = obj.innerHTML + "<div class=\"streamerName\">" + name + "</div><span><div class=\"streamerInfo streamerPicture\" style='background-image: url(https://www.imgur.com/" + image + ".jpg);)'></div></span>" +
-                    "<div class=\"teamInfo streamerDescription\">" + desc + "</div>";
+            obj.innerHTML = obj.innerHTML + "<div class=\"teamName\">" + name + "</div><span><div class=\"teamInfo teamPicture\" style='background-image: url(https://www.imgur.com/" + image + ".jpg);)'></div></span>" +
+                    "<div class=\"teamInfo teamDescription\">" + desc + "</div>";
         });
     });
 }
 
-function showStreamers()
+function showTeam()
 {
     $('#team').modal('show');
 }
