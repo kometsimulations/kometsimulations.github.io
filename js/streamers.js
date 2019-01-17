@@ -10,7 +10,7 @@ function getStreamerJson () {
 
             var obj = document.getElementById("teamInfo");
             obj.innerHTML = obj.innerHTML + "<div class=\"streamerName\">" + name + "</div><span><div class=\"streamerInfo streamerPicture\" style='background-image: url(https://www.imgur.com/" + image + ".jpg);)'></div></span>" +
-                    "<div class=\"streamerInfo streamerDescription\">" + desc + "</div>";
+                    "<div class=\"teamInfo streamerDescription\">" + desc + "</div>";
         });
     });
 }
