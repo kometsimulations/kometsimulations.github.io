@@ -1,16 +1,16 @@
 {
-    "levelpulse":
+    "Level":
     {
-        "image" : "4so8RRj",
-        "description" : "I'm Alex and i'm a 16 year old gamer who likes to stream League of Legends and Counter Strike Global Offensive with my friends. In my free time i like to make websites and do some experimental stuff.",
-        "name" : "LevelPulse"
+        "image" : "uGctf3s",
+        "description" : "",
+        "name" : "Level"
     },
 
     "DangerTharp":
     {
-       "image" : "KR8bvWE",
-        "description" : "I am Danger! or Tharp if you prefer. I'm a pretty regular streamer with a love of a wide range of games. I have way way too many games to play on Steam alone. I currently stream on PC",
-        "name" : "DangerTharp"
+       "image" : "",
+        "description" : "",
+        "name" : "Razor"
     }
 
 }
