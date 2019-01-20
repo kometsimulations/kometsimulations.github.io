@@ -31,9 +31,8 @@
 }
 
 .videosList {
-    border-right-color: #93c54b;
-    padding-right: 4px;
-    //background-color: gold;
+    border-right: 4px;
+    background-color: grey;
     padding-top: 19px;
     font-size: 14px;
 }
