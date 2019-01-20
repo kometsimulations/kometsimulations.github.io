@@ -78,6 +78,7 @@
       <button type="button" class="btn btn-success" data-toggle="modal" data-target="#me-163"><i class="fa fa-fighter-jet"></i> ME-163B</button>
       <button type="button" class="btn btn-success" data-toggle="modal" data-target="#streamers"><i class="fa fa-group"></i> Team</button>
       <button type="button" class="btn btn-success" data-toggle="modal" data-target="#videos"><i class="fa fa-youtube-square"></i> Videos</button>
+      <button type="button" class="btn btn-success openBtn">Open Modal</button>
     </div>
   </div>
   <div class="container">
@@ -289,6 +290,24 @@
     </div>
   </div>
 
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Modal with Dynamic Content</h4>
+              </div>
+              <div class="modal-body">
+
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
 
   <script>
     function getUrlVars() {
@@ -311,6 +330,7 @@
     if (getUrlVars()['me-163'] == "true") {
       $('#me-163').modal('show');
     }
+
     if (getUrlVars()['team'] == "true") {
       $('#streamers').modal('show');
     }
@@ -324,6 +344,13 @@
 
         })
   </script>
+  <script>
+$('.openBtn').on('click',function(){
+    $('.modal-body').load('content.html',function(){
+        $('#myModal').modal({show:true});
+    });
+});
+</script>
 </body>
 
 </html>
