@@ -7,10 +7,12 @@
   <meta name="description" content="ME-163 developed by Komet Simulations">
   <meta name="keywords" content="Komet Simulations, KometSimulations, ME-163B, ME-163, DCS ME-163">
   <meta name="revisit-after" content="1 days">
-  <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+  <meta name="ROBOTS" CONTENT="INDEX, FOLLOW">
   <link rel="stylesheet" href="css/cosmostone.bootstrap.css">
   <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -46,7 +48,7 @@
     <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">
-          <img src="img/logo.png" width="30" height="30" class="img-rounded align-top" alt="">
+          <img src="img/nav.png" width="30" height="30" class="img-rounded align-top" alt="">
           Komet Simulations
         </a>
       </div>
@@ -290,25 +292,6 @@
     </div>
   </div>
 
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog">
-          <!-- Modal content-->
-          <div class="modal-content">
-              <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Modal with Dynamic Content</h4>
-              </div>
-              <div class="modal-body">
-
-              </div>
-              <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-          </div>
-      </div>
-  </div>
-
   <script>
     function getUrlVars() {
       var vars = [],
@@ -344,13 +327,6 @@
 
         })
   </script>
-  <script>
-$('.openBtn').on('click',function(){
-    $('.modal-body').load('pages/image.html',function(){
-        $('#myModal').modal({show:true});
-    });
-});
-</script>
 </body>
 
 </html>
