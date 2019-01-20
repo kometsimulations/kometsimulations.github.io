@@ -317,9 +317,12 @@
     if (getUrlVars()['videos'] == "true") {
       $('#videos').modal('show');
     }
-    $(function() {
-      $('#carousel-example-generic').carousel();
-    });
+    $('#carousel-example-generic').carousel
+    ({
+        interval: 2000,
+
+
+        })
   </script>
 </body>
 
