@@ -26,6 +26,11 @@
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/bootstrap.js"></script>
     <!-- <script src="js/lastupdated.js"></script> -->
+    <script type="text/javascript">
+onload = function(){
+    document.getElementById("lastModified").innerHTML = "Page last changed " + document.lastModified.split(" ")[0];
+}
+</script>
     <script src="js/vod.js"></script>
     <script src="js/streamers.js"></script>
     <script language="JavaScript" type="text/javascript" src="js/streamers.js"></script>
@@ -221,7 +226,7 @@
             <h4 class="modal-title" id="shareLabel">ME-163B</h4>
           </div>
           <div class="modal-body text-center">
-                <script type="text/javascript">writeDateModified (false);</script>
+                <span id="lastModified"></span>
           </div>
         </div>
       </div>
